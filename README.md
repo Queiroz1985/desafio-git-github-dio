@@ -2,11 +2,13 @@
 Primeiro repositório
 
 ### O que é git:
-#### Criado pelo engenheiro de software Linus Torvalds, conhecido por ter desenvolvido, também, o núcleo Linux, o GIT é um Sistema de Controle de Versões Distribuído — ou DVCS.
+Criado pelo engenheiro de software Linus Torvalds, conhecido por ter desenvolvido, também, o núcleo Linux, o GIT é um Sistema de Controle de Versões Distribuído — ou DVCS.
+
 Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um(a) programador(a) possa regredir a versões anteriores de uma aplicação de modo simples e rápido.
 Este tipo de sistema também simplifica muito o processo de compartilhamento de um projeto com um time, por exemplo, ou com outros(as) programadores(as).
 ### Qual a vantagem de usar o Git?
-#### Imagine que, há alguns meses, você desenvolveu um site que possuia determinada função. 
+Imagine que, há alguns meses, você desenvolveu um site que possuia determinada função.
+
 Com o passar do tempo, essa função perdeu sua utilidade e você foi instruído a retirá-la do código fonte deste site.
 Após seis meses, por uma questão de estratégia de negócio, essa função deve ser novamente implementada.
 Para programadores(as) que utilizam o GIT, reincluir a funcionalidade é uma tarefa simples: basta buscar, em seu repositório, a versão que a contempla e retomá-la.
@@ -17,23 +19,99 @@ Isso significa que, diferentemente de outros sistemas de controle de versionamen
 Para auxiliar o trabalho em equipe, recursos como o fluxo de desenvolvimento do Gitflow também trazem muitos benefícios, inclusive porque pode ser acessado por qualquer membro do time em qualquer lugar.
 
 ### O que é github:
-#### O GitHub, tão famoso entre a comunidade de programadores de todo o mundo, é uma espécie de rede social voltada a profissionais de TI cuja tecnologia que o sustenta é o GIT.
+O GitHub, tão famoso entre a comunidade de programadores de todo o mundo, é uma espécie de rede social voltada a profissionais de TI cuja tecnologia que o sustenta é o GIT.
+
 Em outras palavras, GitHub é uma plataforma totalmente online onde você pode criar repositórios e hospedar neles seus projetos, colaborar com softwares open source, seguir outros(as) programadores(as) e interagir com códigos de terceiros.
 O GitHub armazena todos estes dados em uma nuvem e você pode acessá-los de onde estiver: basta logar-se no site em qualquer navegador.
 ### Para que serve e vantagens do GitHub?
-#### O GitHub serve, fundamentalmente, para facilitar o controle de versões de um software ou aplicação.
+
+O GitHub serve, fundamentalmente, para facilitar o controle de versões de um software ou aplicação.
+
 As diferenças entre ele e o GIT estão nas interações proporcionadas pelo GitHub: funcionando de modo semelhante à uma rede social, o GitHub é hoje um dos maiores pontos de encontro virtuais entre programadores de todo o mundo.
 Ele é, também, o maior repositório de softwares de código aberto de toda a internet, tendo, inclusive, como um de seus maiores colaboradores quando o assunto é open source a gigante Microsoft.
 Para os profissionais da área de tecnologia, as vantagens de utilizar o GitHub são inúmeras.
 A maior delas, talvez, seja a oportunidade de aprender com programadores e programadoras mais experientes que você, especializado nas mesmas ou em diferentes áreas. 
 Estas conexões são riquíssimas para os estudantes.
 Outros benefícios são:
-Possibilidade de acompanhar e colaborar com projetos de diferentes equipes;
-Aprender programação na prática ao observar o avanço do desenvolvimento de aplicações de terceiros;
-Participar de discussões a respeito de novas tecnologias;
-Obter auxílio de outros programadores para resolver problemas relacionados a seus projetos;
-Controlar as diferentes versões de um código com armazenamento em nuvem;
-Registrar ações e projetos desenvolvidos por você em uma espécie de portfólio online, etc.
 
-[link pesquisa](https://kenzie.com.br/blog/o-que-e-git/?trk_src=g&trk_cmp=15856497066&trk_grp=142186742081&trk_ad=609055390459&trk_kw=&utm_term=&utm_campaign=INSC-PER-2022-TERMOS-PROGRAMACAO-SEARCH&utm_source=adwords&utm_medium=ppc&hsa_acc=2166776305&hsa_cam=15856497066&hsa_grp=142186742081&hsa_ad=609055390459&hsa_src=g&hsa_tgt=aud-1364255809080:dsa-422413047485&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3)
+- Possibilidade de acompanhar e colaborar com projetos de diferentes equipes;
+- Aprender programação na prática ao observar o avanço do desenvolvimento de aplicações de terceiros;
+- Participar de discussões a respeito de novas tecnologias;
+- Obter auxílio de outros programadores para resolver problemas relacionados a seus projetos;
+- Controlar as diferentes versões de um código com armazenamento em nuvem;
+- Registrar ações e projetos desenvolvidos por você em uma espécie de portfólio online, etc.
+
+## Conceitos do git
+
+Para começar a utilizar o GIT, é importante que você reconheça e compreenda alguns dos principais conceitos utilizados pela ferramenta.
+
+Esta compreensão prévia quebrará alguns obstáculos característico dos primeiros momentos em que manipulamos uma plataforma nova.
+
+Abaixo, listarei e explicarei o que significam algumas nomenclaturas básicas muito comuns na manipulação de códigos-fonte no GIT e no GitHub.
+
+## Repositório
+
+Os **repositórios** são os ambientes criados para armazenar seus códigos.
+
+Você pode possuir um ou mais repositórios, públicos ou privados, locais ou remotos, e eles podem armazenar não somente os próprios códigos a serem modificados, mas também imagens, áudios, arquivos e outros elementos relacionados ao seu projeto.
+
+É através dos seus repositórios públicos que outros programadores poderão ter acesso aos seus códigos no GitHub, podendo, inclusive, cloná-los para adicionar melhorias.
+
+## Branch
+
+**Branch** é o nome dado a uma versão (ramificação) do projeto.Isso é útil porque possibilita gerenciar múltiplas alterações acontecendo simultaneamente. Por exemplo, podemos fazer com que cada equipe de desenvolvimento
+
+## Merge
+
+Para unir as modificações feitas em um branch ao código original, utilizamos o comando **merge**.
+
+Com esta funcionalidade, todas as alterações feitas em cópias manipuláveis são inseridas, após aprovadas, no código-fonte original sem complicações.
+
+## Fork
+
+Quando um profissional desenvolvedor precisa começar a trabalhar em um projeto, seu primeiro passo é copiar este repositório para a sua máquina.
+
+Este processo é realizado pelo comando **fork**.
+
+O fork também é uma funcionalidade útil quando um membro da equipe precisa pegar um código público para manuseá-lo em um editor de código local ou interno.
+
+## Principais comandos Git
+
+Se você estiver familiarizado com alguns dos principais comandos do GIT, seus primeiros passos na ferramenta podem se tornar mais descomplicados.
+
+Para isso, trouxemos abaixo uma lista dos comandos mais utilizados pelos programadores(as) e o que eles significam.
+
+- **Init**: este comando dá origem a um repositório novo, local ou remoto, ou reinicializa um repositório já existente;
+
+
+- **Clone**: este comando clona o código de um repositório para sua manipulação em outro ambiente;
+
+
+- **Commit**: este comando move os arquivos da *state area* para um repositório local;
+
+
+- **Add**: este comando adiciona um arquivo alterado a uma *staging area*, ou seja, o prepara para ser vinculado a um *commit*;
+
+
+- **Push**: este comando envia arquivos de um repositório local para um repositório remoto. No GitHub, por exemplo;
+
+
+- **Pull**: ao contrário do push, este comando traz um arquivo do repositório remoto para o repositório local.
+
+
+- **Merge**: este comando serve para unir arquivos alterados ao arquivo original de um projeto. Em outras palavras, é ele quem une os branchs as *commits*.
+
+
+- **Log**: este comando permite a visualização do histórico de *commits* de um arquivo ou usuário, ou o acesso de uma versão específica.
+
+  ## Conclusão - vale a pena utilizar o Git?
+
+  Por ser o mais rápido controle de versionamentos existente hoje no mercado, o GIT vale a pena porque proporciona a seus usuários e estudantes de programação grande otimização de tempo e recursos.
+
+  Além do mais, a inclusão do GitHub ao uso desta ferramenta expande significativamente o leque de possibilidades que ela oferece, dando a jovens programadores e programadoras a oportunidade de interagir e observar projetos de profissionais mais experientes na área.
+
+  Se você tinha dúvidas sobre começar ou não começar a usar o GIT, saiba que este é um recurso que tem muito a agregar à sua carreira e conhecimento, então vá fundo!
+
+  [link pesquisa](https://kenzie.com.br/blog/o-que-e-git/?trk_src=g&trk_cmp=15856497066&trk_grp=142186742081&trk_ad=609055390459&trk_kw=&utm_term=&utm_campaign=INSC-PER-2022-TERMOS-PROGRAMACAO-SEARCH&utm_source=adwords&utm_medium=ppc&hsa_acc=2166776305&hsa_cam=15856497066&hsa_grp=142186742081&hsa_ad=609055390459&hsa_src=g&hsa_tgt=aud-1364255809080:dsa-422413047485&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3)
+
 
